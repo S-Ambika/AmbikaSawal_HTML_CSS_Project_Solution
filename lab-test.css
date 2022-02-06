@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(231, 238, 222);
+    margin: 0%;
+    width: 100%;
+    overflow-x: hidden;
+
+
+}
+h2{
+    font-size: 16px;
+    color: #383838;
+    margin-top: 20px;
+    
+}
+h3{
+    font-size: 14px;
+    color: #383838;
+}
+
+#lab{
+
+    position: relative;
+margin: 0 auto;
+padding: 20px;
+align-content: center;
+
+display: flex;
+justify-content: center;
+}
+
+#img{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+margin: 0 ;
+overflow: hidden;
+
+    float: right;
+    height: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+
+
+#form_data{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+        text-align: left;
+        height: auto;
+        font-family: arial;
+        background-color:rgb(255, 255, 255);
+        padding-left:12px;
+    
+    
+        
+    
+}
+
+
+select{
+    padding: 6px;
+    border: 1px solid rgb(126, 1, 1)d;
+    
+}
+input{
+    width: 300px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 30px;
+    margin-top: 3px;
+}
+input[name^="test"]{
+    width: 20px;
+    height: 20px;
+
+}
+input[name^="report"]{
+    width: 20px;
+    height: 20px;
+}
+
+input:focus{
+    outline: none !important;
+    border: none;
+    border-bottom:1px solid rgb(126, 1, 1);
+}
+.option{
+    border: none;
+}
+input[type^="radio"]{
+  margin-left: 25px;
+}
+input[type^="date"]{
+    margin-left: 25px;
+    margin-top: 8px;
+  }
+  input[type^="time"]{
+    margin-left: 25px;
+    margin-top: 8px;
+
+  }
+
+label{
+    margin: 5px;
+}
+p{
+    margin:0;
+    padding: 0;
+}
+input[type^="submit"]{
+    display: block;
+    margin: 20px 8px 10px 0px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    border: none;
+    background-color: red;
+}
+input[type^="reset"]{
+    display: block;
+    margin: 20px 8px 10px 0px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    border: none;
+    background-color: red;
+}
+button{
+    display: block;
+    margin: 20px 8px 10px 0px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    border: none;
+    background-color: red;
+}
+input[type^="reset"]:hover{
+    cursor:pointer;
+    background-color: rgb(102, 7, 7);
+}
+input[type^="submit"]:hover{
+    cursor:pointer;
+    background-color: rgb(102, 7, 7);
+}

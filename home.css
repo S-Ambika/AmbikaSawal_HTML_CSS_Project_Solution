@@ -1,0 +1,268 @@
+body{
+    background-color: rgb(231, 238, 222);
+    margin: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("Images/bcg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header{
+    background-color:red;
+    color: white;
+
+    text-align: center;
+    top: 0%;
+    width: 100%;
+    margin: 0%;
+}
+h1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 8px;
+    margin: 0px;
+
+}
+
+
+footer{
+    background-color:red;
+    color: white;
+    
+    font-size: 16px;
+    padding: 10px;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#navigation{
+
+    background-color: rgba(129, 8, 8, 0.7);
+    width: 100%;
+    position: -webkit-sticky;
+    align-content: center;
+    vertical-align: middle;
+
+    
+
+}
+#fixed{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+#navigation ul li>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a, .navLink {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  li a:hover, .dropdownContainer:hover .navLink {
+    background-color: rgb(88, 6, 6);
+  }
+  
+  li.dropdownContainer {
+    display: inline-block;
+  }
+  
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-list a:hover {background-color: #f1f1f1;}
+  .dropdownContainer:hover .dropdown-list {
+    display: block;
+  }
+
+  .diabetes_care, .covid_care{
+position: relative;
+width:100%;
+margin: 0 auto;
+align-content: center;
+display: flex;
+justify-content: center;
+    }
+
+
+    h3{
+        margin-top: 6px;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin-left: 8%;
+        font-size: 1.3em;
+        font-weight:bolder ;
+
+
+    }
+.products{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    width: 20%;
+    margin: 5px 5px 1px 5px;
+    text-align: left;
+    height: auto;
+    font-family: arial;
+    display: inline-block;
+    background-color:rgb(250, 243, 243);
+    padding:2px;
+
+
+    
+}
+
+.p_image {
+    width: 96%;
+    height:200px;
+    padding-left: 5px;
+
+    vertical-align: middle;
+    margin-top: 2px;
+}
+.p_image:hover{
+    width: 98%;
+    height: 250px;
+}
+.desc{
+    display: block;
+    position: relative;
+    width: fit-content;
+
+}
+
+
+h5{
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        margin: 0px;
+         }
+
+  
+  .price {
+    color: gray;
+    font-size: 15px;
+    padding-top: 4px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-bottom: 0;
+
+  }
+  
+  .products button {
+    border: 1px solid red;
+    outline: 0;
+    border-radius: 5px;
+    color: red;
+    left: 5%;
+    background-color: white;
+
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    width: 80%;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    position: relative;
+    padding: 5px;
+  }
+  .products button:hover{
+      background-color:  red;
+      color: white;
+
+      border: 1px solid  black;
+  }
+
+  .products button:hover {
+    opacity: 0.7;
+  }
+
+ 
+  #o_img{
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    min-height: 350px;
+
+
+}
+  .banner{
+    position: relative;
+    margin-top: 6px;
+    align-content: center;
+    border : 2px solid steelblue;
+    display: flex;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 99%;
+    height: 500px;
+    min-height: 350px;
+  }
+  .banner > * 
+  {
+      width: 100%;
+      visibility: hidden; 
+      position: absolute;
+      top: 0;
+      left: 0; 
+      animation: 12s autoplay1 infinite
+}
+
+    @keyframes autoplay1 {
+        0% {visibility: visible}
+        25% {visibility: hidden}
+      }
+
+      .banner > *:nth-child(1) {animation-delay: 0s}
+.banner > *:nth-child(2) {animation-delay: 3s}
+.banner > *:nth-child(3) {animation-delay: 6s}
+.banner > *:nth-child(4) {animation-delay: 9s}
+
+

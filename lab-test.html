@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab-test.css">
+    <title>Lab Test</title>
+</head>
+<body>
+
+    <section id="lab">
+
+<div id="form_data">
+        <form action="home-page.html">
+            <table>
+                <h2>1. Your Contact Details</h2>
+
+                <tr>
+                    <td>
+                        <label for="p_name"></label>
+                    </td>
+                    <td>
+                        <input type="text" id="p_name" placeholder="Full Name" spellcheck="true" required>
+                    </td>
+               
+              
+                    <td>
+                        <label for="p_id"></label>
+                    </td>
+                    <td>
+                        <input type="number" id="p_id" placeholder="Patient Id if exists" min="0000" max="9999">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="p_contact"></label>
+                    </td>
+                    <td>
+                        <input type="number" id="p_contact" placeholder="9876543210" maxlength="10" min="6000000000" max="9999999999" required>
+                    </td>
+               
+              
+                    <td>
+                        <label for="p_email"></label>
+                    </td>
+                    <td>
+                        <input type="email" id="p_email" placeholder="Email Id" required  >
+                    </td>
+                </tr>
+                </table>
+                <table>
+                <h2>2. Address</h2>
+
+                <tr>
+                    <td>
+                        <label for="p_hn"></label>
+                    </td>
+                    <td>
+                        <input type="number" id="p_hn" placeholder="H No." min="0000" max="9999"  required>
+                    </td>
+               
+              
+                    <td>
+                        <label for="p_street"></label>
+                    </td>
+                    <td>
+                        <input type="text" id="p_street" placeholder="Street" spellcheck="true" required >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="p_area"></label>
+                    </td>
+                    <td>
+                        <input type="text" id="p_area" placeholder="Area" spellcheck="true" required>
+                    </td>
+               
+              
+                </tr>
+                <tr>
+                    <td>
+                        <label for="p_dis"></label>
+                    </td>
+
+                    <td>
+                        <h3>District</h3>
+
+                        <select name="District" id="p_dis" required>
+                            <option value="">Choose</option>
+                            <option value="District 1">District 1</option>
+                            <option value="District 2">District 2</option>
+                            <option value="District 3">District 3</option>
+                        </select>                  
+                      </td>
+               
+              
+                </tr>
+                </table>
+                <article>
+             
+                        <h2>3. Test Type</h2>
+                        <p>Check atleast one box without fail</p>
+
+                        <label for="p_test" ></label>
+                        <fieldset class="option" >
+                               <label><input  type="checkbox" name="test1" value="CBC" checked/>CBC</label>
+                               <br>
+                               <label><input type="checkbox"  name="test2" value="Complete Urine"/>Complete Urine</label>
+                               <br>
+                               <label><input type="checkbox"  name="test3" value="Lipid Profile" />Lipid Profile</label>
+                               <br>
+                               <label><input type="checkbox"  name="test4" value="Thyroid Stimulating Hormone(TSH)"/>Thyroid Stimulating Hormone(TSH)</label>
+                               <br>
+                               <label><input type="checkbox"  name="test5" value="Glucose Test"/>Glucose Test</label>
+
+                            </fieldset>
+                        
+</article>
+                            <article class="option">
+                                <h2>4. Do you want a hard copy of the report also?</h2>
+
+                                <input type="radio" id="y" name="report" value="Yes" checked >
+                                <label for="y">Yes</label>
+                                <br>
+                                <input type="radio" id="n" name="report" value="No">
+                                <label for="n">No</label>
+                            </article>
+
+                            <article id="schedule">
+                                <h2>5. Select Your Comfortable Date and Time</h2>
+                                <label for="date">Select Date </label>
+
+                <input type="date" id="date" required>
+           
+                <br>
+                <label for="time">Select Time </label>
+
+                <input type="time" id="time" required>
+                            </article>
+
+
+                            <!-- <button>Reset</button>
+            <button>Submit</button>   -->
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+                    
+        </form>
+</div>
+<section id="fixed">
+<div id="img">
+    <img src="Images/Lab-Test/lab-test.jpg" alt="Lab Test">
+</div>
+</section>
+    </section>
+
+    
+</body>
+</html>
